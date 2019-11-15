@@ -1,7 +1,6 @@
 import numpy as np
 from numpy.linalg import inv
 from scipy.ndimage.filters import *
-import time
 def stereo_disparity_best(Il, Ir, bbox, maxd):
     """
     Best stereo correspondence algorithm.
